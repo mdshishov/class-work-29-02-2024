@@ -11,5 +11,8 @@
   "type": "module",
   "bin": {
     "menu-game": "bin/menu-game.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
