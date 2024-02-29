@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('Choose the game!');
+import showMenu from '../src/menu.js';
+
+showMenu();

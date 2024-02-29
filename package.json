@@ -10,7 +10,9 @@
   "license": "ISC",
   "type": "module",
   "bin": {
-    "menu-game": "bin/menu-game.js"
+    "menu-game": "bin/menu-game.js",
+    "brain-scm": "bin/brain-scm.js",
+    "brain-progression.js": "bin/brain-progression.js"
   },
   "dependencies": {
     "readline-sync": "^1.4.10"
