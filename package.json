@@ -8,5 +8,8 @@
   },
   "author": "Mikhail Shishov",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "bin": {
+    "menu-game": "bin/menu-game.js"
+  }
 }
