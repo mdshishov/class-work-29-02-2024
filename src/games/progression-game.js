@@ -4,10 +4,10 @@ const generateProgression = () => {
   const progressionLength = getRandomNumber(5, 15);
   const firstElement = getRandomNumber();
   const multiplier = getRandomNumber(2);
-  
+
   return Array(progressionLength)
     .fill(0)
-    .map((_item, i) => firstElement * Math.pow(multiplier, i));
+    .map((_item, i) => firstElement * multiplier ** i);
 };
 
 const generateQuestionAndAnswer = () => {
@@ -15,7 +15,7 @@ const generateQuestionAndAnswer = () => {
 
   const positionToGuess = getRandomNumber(0, progression.length - 1);
   const correctAnswer = `${progression[positionToGuess]}`;
-  
+
   progression[positionToGuess] = '..';
   const question = progression.join(' ');
 
